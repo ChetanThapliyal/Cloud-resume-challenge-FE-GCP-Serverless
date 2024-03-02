@@ -1,0 +1,82 @@
+baseURL = "https://raditian-hugo.radity.com/"
+languageCode = "en-us"
+title = "Chetan Thapliyal · Cloud Engineer"
+theme = "adritian-free-hugo-theme"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "About"
+  URL = "index.html#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Experience"
+  URL = "index.html#experience"
+  weight = 3
+
+  [[menu.header]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
+
+
+  [[menu.footer]]
+  name = "About"
+  URL = "index.html#about"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Experience"
+  URL = "index.html#experience"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Books"
+  URL = "/books"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
+
+
+[params]
+
+  sections = ["showcase", "about", "education", "experience", "contact"]
+
+  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+  homepageExperienceCount = 6
+  
+  [params.logo]
+    text1 = "Chetan"
+    text2 = "Thapliyal"
+
+  [params.footer]
+      copyright = "© Chetan Thapliyal."
+      [params.footer.radity_logo]
+        x = "img/general/design-and-code-radity.png"
+        _2x = "img/general/design-and-code-radity@2x.png"
+        alt = "Design & Code - Radity"

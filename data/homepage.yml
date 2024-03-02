@@ -1,0 +1,214 @@
+head:
+  title: "Chetan Thapliyal | Cloud Engineer"
+  description: "Portfolio highlighting Chetan Thapliyal's transition into Cloud Engineering, showcasing tech expertise, freelance background, and availability for new opportunities."
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Chetan."
+  subtitle: "Cloud Engineer"
+  description: "Solutions-driven cloud professional based in Delhi, 🇮🇳. Experience in cloud support (Google Cloud and Azure), technical writing, and Linux system administration. Proven ability to enhance operational efficiency through automation and process improvement. Committed to delivering exceptional support for cutting-edge cloud solutions. Also proficient in DevOps tools like Jenkins, Terraform, and Docker. Skilled in translating technical concepts into clear, actionable guidance for a broad audience."
+  image:
+    alt: "Profile picture of Chetan Thapliyal (@ChetanThapliyal), smiling over a purple color background"
+    x: "images/chetan.jpg"
+    _2x: "images/chetan@2x.jpg"
+  imageMobile:
+    alt: "Profile picture of Chetan Thapliyal (@ChetanThapliyal), smiling over a purple color background"
+    x: "images/chetan.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/chetanthapliyal/"
+
+    - icon: "github"
+      URL: "https://github.com/ChetanThapliyal"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/ChetanThapliyal"
+
+    - icon: "icon-profile-fill"
+      URL: "https://blog.chetan-thapliyal.cloud"
+
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    I am an engineer by formation, curious and energetic - that applies technology to solve real-world problems. Personally, I’m a very easy going, sociable, fast-learner, curious and natural leader. I do what I love, and I love what I do. I lead by example and work side by side with my teams.
+    </p>
+    <p class="lead">
+    I am a deliberate <em>jack of all trades, master of none</em>. My profile is a hybrid of technical and managerial experience, but always related to technological projects. I bring business and product vision to tech teams, partly thanks to having started an developed a company. I am a fast learner, curious to see how technology can improve the users experience in multiple areas. I have a strong motivation and sense of responsibility with myself, my team and clients (or peers), and people like my positive and easy going, can-do attitude.
+    </p>
+    <p class="lead">    
+    On the technical side, I’m a <em>specialized generalist</em>, always working between different areas and aiming to develop a holistic vision on what is involved into creating a successful tech product: mobile and web development, devops/SRE,... This has involved a variety of languages and frameworks in the web-side, both in the backend and in the client side.
+    </p>'
+
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/chetanthapliyal/"
+  image:
+    x: "images/working-left.jpg"
+    _2x: "images/working-left@2x.jpg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Google"
+      year: "2023-2024"
+      degree: "Google IT Support Specialization"
+
+    - university: "Uttarakhand Technical University"
+      year: "2010-2014"
+      degree: "Bachelor of Technology (B.Tech.) in Mechanical Engineering"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "With a diverse background spanning mechanical engineering and IT, I bring a unique blend of technical depth and problem-solving skills to cloud engineering.  My experience architecting solutions, developing technical guides, and automating workflows positions me to make a valuable impact in the cloud space."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/chetanthapliyal/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download résumé"
+    URL: "/files/cv_adrian_moreno_english.pdf"
+  button3: 
+    icon: "icon-arrow-right"
+    btnText: "All experience"
+    URL: "/experience"
+# Client & Work
+client_and_work:
+  title: "Clients & Works"
+  enable: false
+
+  clients:
+    - logo:
+        x: "images/clients/asgardia.png"
+        _2x: "images/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "images/clients/earth-2.png"
+        _2x: "images/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "images/clients/goldline.png"
+        _2x: "images/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "images/clients/kanba.png"
+        _2x: "images/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "images/clients/zoo-tv.png"
+        _2x: "images/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "images/clients/ztos.png"
+        _2x: "images/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Radity Finance - UI Kit"
+      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "images/works/radity-finance.jpg"
+        _2x: "images/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "Swiss Fintech Website"
+      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "images/works/swissfintech.jpg"
+        _2x: "images/works/swissfintech@2x.jpg"
+      is_even: false
+
+    - title: "Robo Advisor"
+      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "images/works/robo-advisor.jpg"
+        _2x: "images/works/robo-advisor@2x.jpg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "images/testimonials/daniel-jordan.jpg"
+        _2x: "images/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "images/testimonials/jonathan-peters.jpg"
+        _2x: "images/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "images/testimonials/antonio-willis.jpg"
+        _2x: "images/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "https://formspree.io/info@adrianmoreno.info"
+    method: "POST"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+91 8800596539"
+  email:
+    title: "Email"
+    email: '<a href="mailto:chetan.thapliyal@outlook.com">chetan.thapliyal@outlook.com</a>'
+  address:
+    title: "Location"
+    address: "Delhi (IN)"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
