@@ -1,29 +1,35 @@
-# Step 1: Build the Hugo container image
-- name: 'gcr.io/hugo-build'
+# Define Cloud Build configuration with unique variables
+
+steps:
+- name: 'gcr.io/hugo-build'  # Use the Hugo builder
   args: ['build', '-t', 'gcr.io/$PROJECT_ID/my-hugo-site:latest', '.']
   cacheFrom: ['gcr.io/$PROJECT_ID/my-hugo-site:latest']
 
-# Step 2: Push the Image to Artifact Registry (or your registry of choice)
-- name: 'gcr.io/cloud-builders/docker'
+- name: 'gcr.io/cloud-builders/docker'  # Use the Docker builder
   args: ['push', 'gcr.io/$PROJECT_ID/my-hugo-site:latest']
 
-# Step 3: Deploy to Cloud Run (using gcloud)
-- name: 'gcr.io/cloud-builders/gcloud'
+- name: 'gcr.io/cloud-builders/gcloud'  # Use the gcloud builder
   args: 
-    - 'run' 
-    - 'deploy' 
-    - 'my-hugo-site' # Replace with the name of your service 
+    - 'run'
+    - 'deploy'
+    - '$_SERVICE_NAME'  # Use a unique variable for the service name
     - '--image'
     - 'gcr.io/$PROJECT_ID/my-hugo-site:latest'
     - '--region'
-    - 'us-central1' # Replace with your desired region
-    - '--allow-unauthenticated' # For initial simplicity
+    - '$_REGION'  # Use a unique variable for the region
+    - '--allow-unauthenticated'
   entrypoint: 'bash'
   script: |
     set -e
-    gcloud run deploy $SERVICE_NAME \
-      --image $IMAGE_NAME \
-      --region $REGION \
+    gcloud run deploy $_SERVICE_NAME \
+      --image $_IMAGE_NAME \
+      --region $_REGION \
       --allow-unauthenticated \
       --platform managed \
       --port 8080
+
+# Define unique variables with clear names
+substitutions:
+  _SERVICE_NAME: my-hugo-site  # Replace with your service name
+  _REGION: asia-south2  # Replace with your desired region
+  _IMAGE_NAME: gcr.io/$PROJECT_ID/my-hugo-site:latest
