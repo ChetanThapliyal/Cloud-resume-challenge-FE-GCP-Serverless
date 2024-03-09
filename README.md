@@ -1,4 +1,5 @@
 # Cloud Resume Challenge - Frontend Serverless GCP
+### Serverless resume on GCP with API backend and GitOps-based CI/CD
 
 This repository hosts the frontend code and setup instructions for implementing the Cloud Resume Challenge using Google Cloud Platform (GCP).
 
