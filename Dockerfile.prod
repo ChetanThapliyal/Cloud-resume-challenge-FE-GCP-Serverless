@@ -4,7 +4,9 @@ FROM golang:alpine AS build
 # Set the working directory within the container
 WORKDIR /app
 
-ENV HOST 0.0.0.0
+ENV NODE_ENV=production \
+HOSTNAME="0.0.0.0" \
+NEXT_TELEMETRY_DISABLED=1
 
 # Copy your Hugo project files
 COPY . . 
