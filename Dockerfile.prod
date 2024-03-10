@@ -4,10 +4,6 @@ FROM golang:alpine AS build
 # Set the working directory within the container
 WORKDIR /app
 
-ENV NODE_ENV=production \
-HOSTNAME="0.0.0.0" \
-NEXT_TELEMETRY_DISABLED=1
-
 # Copy your Hugo project files
 COPY . . 
 
@@ -40,3 +36,8 @@ EXPOSE 8080
 
 # Command to start NGINX when the container runs
 CMD ["nginx", "-g", "daemon off;"] 
+
+#env var
+ENV NODE_ENV=production \
+HOSTNAME="0.0.0.0" \
+NEXT_TELEMETRY_DISABLED=1
