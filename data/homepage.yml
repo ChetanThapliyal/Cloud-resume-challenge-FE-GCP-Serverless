@@ -17,6 +17,7 @@ showcase:
 
   button:
     icon: "icon-mail-fill"
+    
     btnText: "Contact"
     URL: "#contact"
 
@@ -43,9 +44,6 @@ about:
     </p>
     <p class="lead">
     I am a deliberate <em>jack of all trades, master of none</em>. My profile is a hybrid of technical and managerial experience, but always related to technological projects. I bring business and product vision to tech teams, partly thanks to having started an developed a company. I am a fast learner, curious to see how technology can improve the users experience in multiple areas. I have a strong motivation and sense of responsibility with myself, my team and clients (or peers), and people like my positive and easy going, can-do attitude.
-    </p>
-    <p class="lead">    
-    On the technical side, I’m a <em>specialized generalist</em>, always working between different areas and aiming to develop a holistic vision on what is involved into creating a successful tech product: mobile and web development, devops/SRE,... This has involved a variety of languages and frameworks in the web-side, both in the backend and in the client side.
     </p>'
 
   button:
@@ -73,7 +71,7 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "With a diverse background spanning mechanical engineering and IT, I bring a unique blend of technical depth and problem-solving skills to cloud engineering.  My experience architecting solutions, developing technical guides, and automating workflows positions me to make a valuable impact in the cloud space."
+  description: "With a diverse background spanning Business, Mechanical Engineering and IT, I bring a unique blend of technical depth and problem-solving skills to cloud engineering.  My experience architecting solutions, developing technical guides, and automating workflows positions me to make a valuable impact in the cloud space."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"

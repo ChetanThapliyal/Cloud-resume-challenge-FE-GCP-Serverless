@@ -7,7 +7,7 @@ company: "Hashnode"
 location: "Remote"
 duration: "2023-present"
 ---
-## Transition to IT, started freelance blogging and Technical Writing ✍🏼
+### Transition to IT, started freelance blogging and Technical Writing ✍🏼
 
 As a lifelong tech enthusiast, I made an exciting career shift into the dynamic world of IT in December 2022, focusing on the exciting fields of Cloud Engineering and DevOps. My ingrained 'geek' tendencies fueled a passion for Linux and Git version control, which I'd been using for five years in both personal and professional projects. This foundation gave me a head start with DevOps concepts and technologies. Additionally, my prior experience working on AI/ML projects with Python made picking up Golang a breeze.
 

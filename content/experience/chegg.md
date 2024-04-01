@@ -7,7 +7,7 @@ company: "Chegg India"
 location: "Remote"
 duration: "2020-2022"
 ---
-## Life as a Subject Matter Expert
+### Life as a Subject Matter Expert
 
 
 Chegg India is a leading student-first connected learning platform, Chegg's Student Hub makes higher education more affordable and more accessible, all while improving student outcomes. Chegg is a publicly-held company based in Santa Clara, CA with offices in San Francisco, New York, Portland, India, Israel, Berlin, and Ukraine.
